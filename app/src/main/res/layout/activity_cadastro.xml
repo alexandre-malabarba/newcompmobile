@@ -9,36 +9,38 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         android:layout_margin="10dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <EditText
             android:id="@+id/etNomeCadastro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:inputType="textPersonName"
-            android:hint="@string/nome"/>
+            android:hint="@string/nome"
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/etLoginCadastro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:inputType="textPersonName"
-            android:hint="@string/login"/>
+            android:hint="@string/login"
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/etSenhaCadastro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:inputType="textPersonName"
-            android:hint="@string/senha"/>
+            android:hint="@string/senha"
+            android:inputType="textPersonName" />
 
         <Button
             android:id="@+id/btEnviarCadastro"

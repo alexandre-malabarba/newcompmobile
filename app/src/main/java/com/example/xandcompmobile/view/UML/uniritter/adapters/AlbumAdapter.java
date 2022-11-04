@@ -39,9 +39,9 @@ public class AlbumAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         Albuns objAlbuns = dadosAlbuns.get(position);
         User objUser = dadosUser.get( objAlbuns.getUserID()-1 );
         if ( objUser.getId() == objAlbuns.getUserID() ) {
-            ((TextView)((AlbumViewHolder) holder).view.findViewById(R.id.tvUserIdAlbum)).setText("User: "+objUser.getNome());
-            ((TextView)((AlbumViewHolder) holder).view.findViewById(R.id.tvIdAlbum)).setText("ID: "+Integer.toString(objAlbuns.getId()));
-            ((TextView)((AlbumViewHolder) holder).view.findViewById(R.id.tvTituloAlbum)).setText("Titulo: "+ objAlbuns.getTitle());
+            ((TextView)((AlbumViewHolder) holder).view.findViewById(R.id.uAlbum)).setText("User: "+objUser.getNome());
+            ((TextView)((AlbumViewHolder) holder).view.findViewById(R.id.Album)).setText("ID: "+Integer.toString(objAlbuns.getId()));
+            ((TextView)((AlbumViewHolder) holder).view.findViewById(R.id.TituloAlbum)).setText("Titulo: "+ objAlbuns.getTitle());
         }
 
     }

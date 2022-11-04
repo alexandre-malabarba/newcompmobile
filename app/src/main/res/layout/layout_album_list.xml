@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/tvUserIdAlbum"
+            android:id="@+id/uAlbum"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="texto"
@@ -24,7 +24,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tvIdAlbum"
+            android:id="@+id/Album"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="texto"
@@ -32,7 +32,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/tvTituloAlbum"
+            android:id="@+id/TituloAlbum"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="texto"
